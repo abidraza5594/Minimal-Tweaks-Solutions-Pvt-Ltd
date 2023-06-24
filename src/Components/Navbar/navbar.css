@@ -1,0 +1,29 @@
+
+.navbar {
+    width: 100%;
+    height: 54px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ ul {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+}
+
+li {
+    list-style: none;
+}
+
+.enrollnow {
+    width: 90px;
+    height: 35px;
+    border: none;
+    outline: none;
+    background-color: red;
+    color: white;
+}

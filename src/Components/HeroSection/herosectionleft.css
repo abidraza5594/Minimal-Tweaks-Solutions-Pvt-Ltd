@@ -1,0 +1,35 @@
+.herosectionleft__container{
+    width: 592px;
+    height: 168px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.heroleftheader{
+    text-align: left;
+    width: 100%;
+    margin-top: -40px;
+}
+.heroleftheader h1{
+    margin: 0;
+    padding: 0;
+}
+
+.hero_left_section__containt{
+    width: 692px;
+    height: 179px;
+    margin-left: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+    background-color: aqua;
+}
+
+.heroleft_img{
+    width: 585px;
+    height: 353px;
+    margin-left: 40px;
+
+}

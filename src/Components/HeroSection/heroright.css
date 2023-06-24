@@ -1,0 +1,10 @@
+.herosection__right{
+    width: 465px;
+    height: 569px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    margin-top: 30px;
+    border: 2px solid yellow;
+}
