@@ -6,17 +6,17 @@ const HerosectionLeft = () => {
   return (
     <div className="herosectionleft__container">
         <div className="heroleftheader">
-            <h1>Unlock Your Financial</h1>
-            <h1>Potential With CMS</h1>
+            Unlock Your <span className='underlined'> Financial </span>
+            <br/>
+            Potential <mark> With CMS</mark>
         </div>
 
         <div className="hero_left_section__containt">
-            <span style={{fontSize:"10px",letterSpacing:"2px",backgroundColor:"yellow"}}>ABOUT COURSE</span>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                Velit, neque? Reprehenderit nobis quam cupiditate
-                fugiat laudantium? Aut, repudiandae reiciendis dignissimos
-                modi error natus recusandae excepturi provident, 
-                fugiat veniam sunt asperiores.</p>
+
+            <div className='about'><mark>ABOUT COURSE</mark></div>
+            <div>
+            <p className='content'>CMA (Certified Management Accountant) USA is a globally recognized professional certification in the field of management accounting, offered by the Institute of Management Accountants (IMA). The certification demonstrates expertise in financial planning, analysis, control, decision support, and professional ethics.</p>
+                </div>
         </div>
         <div className="heroleft_img">
             <img src={HeroLeftImg} alt="" />

@@ -2,5 +2,13 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    justify-content: space-around;
+    padding-top: 8rem;
+    background: #FFF1E9;
+}
+
+.main_hero_sec-container{
+    width:1440px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }

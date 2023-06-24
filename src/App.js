@@ -14,8 +14,10 @@ function App() {
     <div className="App">
       <Navbar/>
       <div className="main_hero_sec">
-        <HerosectionLeft/>
-        <HeroRightSection/>
+        <div className='main_hero_sec-container'>
+          <HerosectionLeft/>
+          <HeroRightSection/>
+        </div>
       </div>
       <ContentPartner/>
       <Sectionmainimg/>

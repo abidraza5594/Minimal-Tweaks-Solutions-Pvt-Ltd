@@ -1,22 +1,33 @@
 
 .navbar {
     width: 100%;
-    height: 54px;
+    height: 72px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
+.navbar-container{
+    width: 1440px;
+    font-size: 1rem;
+    line-height: 20px;
+    font-family: 'Manrope', sans-serif;
+    font-weight: 500;
+}
+
 
  ul {
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
+    padding:0;
 }
 
 li {
     list-style: none;
+
 }
 
 .enrollnow {
